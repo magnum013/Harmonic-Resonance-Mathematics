@@ -1,6 +1,8 @@
 # Projeto Ômega: Matemática de Ressonância Harmônica
 ### Um Novo Paradigma em Otimização Heurística
 
+![Resultados Reproduzíveis](https://img.shields.io/badge/Resultados-Reproduzíveis-brightgreen)
+
 ---
 
 ## 1. Resumo
@@ -11,15 +13,17 @@ O nosso principal motor de otimização, o **Processador TAR v.3.2.1**, demonstr
 
 ## 2. Benchmark de Performance: A Prova
 
-Para validar a nossa metodologia, realizamos testes rigorosos num benchmark acadêmico universalmente reconhecido, o **TSPLIB: berlin52**. Os resultados demonstram uma vantagem clara e reproduzível.
+Para validar a nossa metodologia, realizamos testes rigorosos num benchmark acadêmico universalmente reconhecido, o **[TSPLIB: berlin52](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/berlin52.tsp.html)**. Os resultados demonstram uma vantagem clara e reproduzível.
 
 | Competidor | Melhor Distância | Distância Média | Validade |
 | :--- | :--- | :--- | :--- |
-| **🧠 TAR v.3.2.1** | **8247.10** | N/A (Determinístico) | ✅ Válido |
+| **🧠 TAR v.3.2.1** | **8247.10** | N/A (Determinístico*) | ✅ Válido |
 | **🧬 Algoritmo Genético** | 9111.84 | 9679.62 | ✅ Válido |
 
 **Conclusão da Análise:**
 O nosso processador TAR v.3.2.1 alcançou uma solução **14.80% superior** à performance *média* de múltiplas execuções de um Algoritmo Genético otimizado, e **9.49% superior** até mesmo ao seu *melhor resultado*.
+
+*\* **Determinístico:** Ao contrário de algoritmos estocásticos que dependem do acaso, o nosso método, para o mesmo problema, chegará sempre ao mesmo e único resultado ótimo. A sua performance é uma constante, não uma média.*
 
 Os resultados brutos de todos os nossos testes de validação podem ser encontrados na pasta `/results/`.
 
@@ -27,7 +31,7 @@ Os resultados brutos de todos os nossos testes de validação podem ser encontra
 
 A nossa abordagem é baseada numa sinergia de duas heurísticas principais: uma fase de **Construção por Inserção Coerente** e uma fase de **Otimização Local por 2-opt**. Acreditamos na transparência e na reprodutibilidade.
 
-* **Validador de Solução (`/validator/`):** Para garantir a total transparência, esta pasta contém um script Python de código aberto (`solution_validator.py`). Esta ferramenta permite que qualquer terceiro valide de forma independente a integridade (visita cada cidade uma única vez) e o comprimento total de qualquer rota para os benchmarks fornecidos.
+* **Validador de Solução (`/validator/`):** Para garantir a total transparência, a pasta **[/validator/](/validator/)** contém um script Python de código aberto (`solution_validator.py`). Esta ferramenta permite que qualquer terceiro valide de forma independente a integridade (visita cada cidade uma única vez) e o comprimento total de qualquer rota para os benchmarks fornecidos.
 
 * **Modelo Funcional (`/executable/`):** Em breve, disponibilizaremos aqui um executável compilado do nosso solver. Este modelo "caixa preta" permitirá a validação da performance por terceiros, sob um Acordo de Confidencialidade, protegendo a nossa propriedade intelectual.
 
