@@ -1,0 +1,38 @@
+Microsoft Windows [versão 10.0.26100.4770]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\magnu>cd C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp
+
+C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp>pip install requests
+Requirement already satisfied: requests in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (2.32.4)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (from requests) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (from requests) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (from requests) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (from requests) (2025.8.3)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp>python campeonatov3.py
+======================================================================
+    📜 RELATÓRIO TÉCNICO DE BENCHMARK (TSPLIB: berlin52) 📜
+======================================================================
+
+-> A executar Algoritmo TAR v.3.2.1...
+
+-> A executar Algoritmo Genético...
+
+--- 📊 TABELA DE RESULTADOS 📊 ---
+Algoritmo Participante         | Distância Final      | Tempo (s)       | Gap para o Ótimo (%)
+-----------------------------------------------------------------------------------------------
+Concorde (Referência Ótima)    | 7542.00              | N/A             | 0.00%
+TAR v.3.2.1                    | 7701.46              | 0.0015          | 2.11%
+Algoritmo Genético             | 9790.11              | 220.3769        | 29.81%
+-----------------------------------------------------------------------------------------------
+
+--- 📈 SUMÁRIO DA ANÁLISE 📈 ---
+O Processador TAR v.3.2.1 demonstrou desempenho superior, obtendo uma solução 21.33% melhor
+que o Algoritmo Genético, com um gap significativamente menor em relação à solução ótima conhecida.
+======================================================================
+
+C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp>
