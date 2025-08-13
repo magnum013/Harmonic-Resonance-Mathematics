@@ -1,0 +1,29 @@
+[notice] A new release of pip is available: 25.0.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp>python campeonato_eil101.py
+   -> 101 cidades carregadas para o campo de batalha.
+======================================================================
+    🔬 INICIANDO O CAMPEONATO DAS MENTES (eil101.tsp) 🔬
+    🎯 Solução Ótima Conhecida (Concorde): 629
+======================================================================
+
+---⚔️  CONVOCANDO OS CAMPEÕES PARA A ARENA ⚔️ ---
+
+🧠 A executar TAR v.3.2.1 (A Mente Afiada)...
+
+🧬 A executar Algoritmo Genético...
+
+--- 📊 TABELA DE RESULTADOS (eil101.tsp) 📊 ---
+Competidor                               | Distância       | Tempo (s)       | Gap para o Ótimo (%)
+----------------------------------------------------------------------------------------------------
+🏛️  Concorde TSP Solver (Referência)     | 629.00          | N/A             | 0.00%
+🧠 TAR v.3.2.1 (A Mente Afiada)           | 687.91          | 0.0123          | 9.37%
+🧬 Algoritmo Genético                     | 1177.80         | 1169.1351       | 87.25%
+----------------------------------------------------------------------------------------------------
+
+--- 🏆 CONCLUSÃO DO CAMPEONATO 🏆 ---
+🥇 A Mente Afiada prova a sua soberania no novo campo de batalha.
+======================================================================
+
+C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp>
