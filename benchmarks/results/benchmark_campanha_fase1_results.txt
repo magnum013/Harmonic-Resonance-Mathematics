@@ -1,0 +1,73 @@
+Microsoft Windows [versão 10.0.26100.4946]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\magnu>cd C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp
+
+C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp>pip install requests
+Requirement already satisfied: requests in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (2.32.4)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (from requests) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (from requests) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (from requests) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\magnu\appdata\local\programs\python\python313\lib\site-packages (from requests) (2025.8.3)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp>python campeonato_mundialv7.py
+======================================================================
+    🔬 INICIANDO O CAMPEONATO MUNDIAL DE OTIMIZAÇÃO 🔬
+======================================================================
+
+
+--- ⚔️  INICIANDO BATALHA NO CAMPO: st70.tsp ⚔️ ---
+   -> 70 cidades carregadas.
+
+   -> 🧠 A executar TAR v.3.2.1 (A Mente Afiada)...
+   -> 🧬 A executar Algoritmo Genético...
+
+
+--- ⚔️  INICIANDO BATALHA NO CAMPO: pr76.tsp ⚔️ ---
+🌍 A descarregar o mapa de batalha 'pr76.tsp'...
+   -> 76 cidades carregadas.
+
+   -> 🧠 A executar TAR v.3.2.1 (A Mente Afiada)...
+   -> 🧬 A executar Algoritmo Genético...
+
+
+--- ⚔️  INICIANDO BATALHA NO CAMPO: rat99.tsp ⚔️ ---
+🌍 A descarregar o mapa de batalha 'rat99.tsp'...
+   -> 99 cidades carregadas.
+
+   -> 🧠 A executar TAR v.3.2.1 (A Mente Afiada)...
+   -> 🧬 A executar Algoritmo Genético...
+
+
+======================================================================
+               📜 RESULTADO FINAL DA CAMPANHA 📜
+======================================================================
+
+--- 📊 TABELA DE RESULTADOS (st70.tsp) 📊 ---
+Competidor                               | Distância       | Gap para o Ótimo (%)
+-------------------------------------------------------------------------------------
+🏛️  Concorde TSP Solver (Referência)     | 675.00          | 0.00%
+🧠 TAR v.3.2.1 (A Mente Afiada)           | 705.73          | 4.55%
+🧬 Algoritmo Genético                     | 1099.95         | 62.96%
+-------------------------------------------------------------------------------------
+
+--- 📊 TABELA DE RESULTADOS (pr76.tsp) 📊 ---
+Competidor                               | Distância       | Gap para o Ótimo (%)
+-------------------------------------------------------------------------------------
+🏛️  Concorde TSP Solver (Referência)     | 108159.00       | 0.00%
+🧠 TAR v.3.2.1 (A Mente Afiada)           | 113348.68       | 4.80%
+🧬 Algoritmo Genético                     | 187637.49       | 73.48%
+-------------------------------------------------------------------------------------
+
+--- 📊 TABELA DE RESULTADOS (rat99.tsp) 📊 ---
+Competidor                               | Distância       | Gap para o Ótimo (%)
+-------------------------------------------------------------------------------------
+🏛️  Concorde TSP Solver (Referência)     | 1211.00         | 0.00%
+🧠 TAR v.3.2.1 (A Mente Afiada)           | 1317.53         | 8.80%
+🧬 Algoritmo Genético                     | 2419.53         | 99.80%
+-------------------------------------------------------------------------------------
+
+C:\Users\magnu\OneDrive\Área de Trabalho\laboratorioOmega\tsp>
